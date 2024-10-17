@@ -1,0 +1,85 @@
+/* Gaya untuk header */
+header {
+    background-color: #280872; /* Warna latar belakang */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Gaya untuk kontainer utama */
+.container {
+    display: flex;
+}
+
+/* Gaya untuk sidebar */
+aside {
+    width: 200px; /* Lebar sidebar */
+    background-color: #333; /* Warna latar belakang sidebar */
+    padding: 15px;
+    height: 100vh; /* Mengatur tinggi sidebar */
+}
+
+/* Gaya untuk menu */
+.menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu li {
+    margin: 10px 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white; /* Warna teks */
+    display: block; /* Mengubah menjadi blok */
+    padding: 10px; /* Ruang dalam */
+}
+
+.menu a:hover, .menu a.aktif {
+    background-color: #575757; /* Warna latar belakang saat hover */
+}
+
+/* Gaya untuk konten utama */
+.main {
+    flex-grow: 1; /* Membuat konten utama mengambil sisa ruang */
+    padding: 20px;
+}
+
+/* Gaya untuk tabel */
+.table-container {
+    display: flex;
+    justify-content: center; /* Memusatkan secara horizontal */
+    margin-top: 20px; /* Jarak dari atas */
+}
+
+table {
+    border-collapse: collapse; /* Menghilangkan jarak antara sel */
+    width: 80%; /* Lebar tabel */
+    margin: 0 auto; /* Memusatkan tabel */
+}
+
+th, td {
+    border: 1px solid #ddd; /* Garis batas */
+    padding: 8px; /* Ruang dalam sel */
+    text-align: left; /* Rata kiri */
+}
+
+th {
+    background-color: #f2f2f2; /* Warna latar belakang header */
+}
+
+tr:hover {
+    background-color: #f1f1f1; /* Efek hover pada baris */
+}
+
+/* Gaya untuk footer */
+footer {
+    background-color: #280872; /* Warna latar belakang footer */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative; /* Mengatur posisi footer */
+    bottom: 0;
+    width: 100%;
+}
